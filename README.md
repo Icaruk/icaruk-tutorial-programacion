@@ -57,13 +57,13 @@ y pulsando el botón verde que dice "Install".
 
 2. Abajo a la derecha del todo hacemos click donde pone "Texto sin formato". Escribimos Javascript y seleccionamos la opción.
 
-3. Escribimos lo siguiente:
+3. Escribimos lo siguiente:<br>
 `console.log("Todo funciona guay")`
 
-4. Hacemos click en el icono con forma de play arriba a la derecha del todo:
+4. Hacemos click en el icono con forma de play arriba a la derecha del todo:<br>
 ![](https://i.gyazo.com/096a722659dd27171e3b7c83c1787519.png)
 
-5. Deberíamos de ver el texto en la parte inferior tal que así:
+5. Deberíamos de ver el texto en la parte inferior tal que así:<br>
 ![](https://i.gyazo.com/e53d09f52c63981f980ac2ddf77f7080.png)
 
 
