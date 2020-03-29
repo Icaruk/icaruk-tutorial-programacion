@@ -149,9 +149,11 @@ var alumnosBienBien = [
 	OBJECT
 	
 	Los objetos están rodeados con llaves {}.
-	Se usa para contener una lista de parejas key-value (clave-valor) separadas por comas.
+	Se usa para contener una lista propiedades que describen el objeto.
+	Las propiedades son parejas de key-value (clave-valor) separadas por comas.
 	
 	La key y el value están separados por dos puntos.
+		nombre: "Pepe"
 	La key sigue las mismas normas que los nombres de variable.
 	El value puede ser cualquier tipo de dato.
 	
@@ -181,4 +183,25 @@ var numero2 = 20;
 
 
 
+// ############################################################
+// Ejercicio
+// ############################################################
 
+/*
+	Crea variables que contengan los siguientes datos:
+	
+	1. Tu nombre
+	2. Año en el que naciste
+	3. Tu edad
+	4. El nombre de tu perro, si no tienes perro puedes usar el de un amigo. Si tu amigo no tiene perro usa el nombre de tu amigo.
+	5. Una lista con lo próximo que vas a comprar en el supermercado.
+	6. Un objeto que contenga propiedades del perro/amigo del punto 4.
+
+*/
+
+// Voy a ayudarte un poco...
+
+var miNombre = "Adrián";
+var anoNacimiento = 1990; // sí, pone ano
+
+// ... y ahora sigues tú :D
