@@ -99,3 +99,5 @@ A veces va a ser frustrante y no vas a tener ni puta idea de qué coño está oc
 Es parte del **aprendizaje**, permítete equivocarte y hacer las cosas mal, no pasa nada. Los "sabios" conocen millones de formas de cómo NO hacer las cosas, por eso son sabios.
 
 Así que... ¡tu aventura empieza en el capítulo 1!
+
+El primer capítulo estará en un archivo con extensión .js así que tendrás que abrirlo con VSC (Visual Studio Code).
