@@ -1,6 +1,6 @@
 # ¡Pssst! ¡Aquí abajo!
 
-Soy Adrián "Icaruk" y te doy la bienvenida a mi tutorial de Javascript + HTML + CSS.
+¡Hola! Soy Adrián "Icaruk" y te doy la bienvenida a mi tutorial de Javascript + HTML + CSS.
 Este tutorial te sirve si no sabes NADA de programación porque voy a empezar de 0.
 
 Voy a intentar transmitir mis conocimientos y mi forma de hacer las cosas de la forma más efectiva posible.
