@@ -35,13 +35,13 @@ Para descargar extensiones vamos a la parte izquierda y hacemos click en este ic
 
 Y descargamos las siguientes extensiones:
 
-**Code runner**
+**Code runner**<br>
 Sirve para ejecutar todo el código del documento actual, o sólo la selección que tengamos.
 
 ![](https://i.gyazo.com/a18ab74dd919b1141640648b6ce240ec.png)
 
 
-**Bracket pair colorizer**
+**Bracket pair colorizer**<br>
 Sirve para ver más fácilmente los inicios y finales de cada paréntesis, corchete y llave cuando están tal que así (()) [[]] {{}}.
 Lo veremos cuando avancemos.
 
