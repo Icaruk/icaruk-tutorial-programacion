@@ -37,12 +37,14 @@ Y descargamos las siguientes extensiones:
 
 **Code runner**
 Sirve para ejecutar todo el código del documento actual, o sólo la selección que tengamos.
+
 ![](https://i.gyazo.com/a18ab74dd919b1141640648b6ce240ec.png)
 
 
 **Bracket pair colorizer**
 Sirve para ver más fácilmente los inicios y finales de cada paréntesis, corchete y llave cuando están tal que así (()) [[]] {{}}.
 Lo veremos cuando avancemos.
+
 ![](https://i.gyazo.com/9a5ba46d8b9b1fd88a84da59932125db.png)
 
 ¿Cómo? Simplemente escribimos el nombre en la parte superior donde dice "Buscar extensiones en Marketplace"
