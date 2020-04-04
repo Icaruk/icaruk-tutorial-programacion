@@ -20,7 +20,13 @@ En este tutorial usaremos Visual Studio Code que podremos descargar [aquí](http
 
 Después instalaremos Node.js, que básicamente es para poder ejecutar Javascript fuera del navegador.
 Y lo podremos descargar [aquí](https://nodejs.org/es/download/).
+(Durante la instalación no es necesario que instaléis Chocolatey y si dice algo de PATH decís que sí.)
 
+Ahora pulsamos sobre la tecla Windows, escribimos ``cmd`` y pulsamos sobre *Símbolo del sistema* (sirve cualquier terminal).<br/>
+Escribimos ``node -v`` y le damos a intro.
+
+Debería salir **v12.16.1** (o la versión que os hayáis bajado en ese momento). Esto quiere decir que está instalado correctamente.<br/>
+Si aparece algo como *No se reconoce el comando interno o externo* escribís en google "node" seguido del mensaje de ese error... y hay miles de soluciones.
 
 
 # Configurando Visual Studio Code
@@ -67,7 +73,33 @@ y pulsando el botón verde que dice "Install".
 ![](https://i.gyazo.com/e53d09f52c63981f980ac2ddf77f7080.png)
 
 
-Si algo ha salido mal comprueba si tienes Node.js intalado correctamente, reinicia VSC o reinicia el ordenador.
+Si algo ha salido mal comprueba si tienes Node.js intalado correctamente, reinicia VSC o reinicia el ordenador.<br/><br/>
+
+Si todavía tienes problemas y Code Runner no lanza el código, vamos a hacer lo siguiente:<br/>
+
+1. Vamos a Archivo >> Preferencias >> Configuración
+2. En la barra de búsqueda escribimos ``code runner``
+3. Buscamos esta configuración y hacemos click en *Editar en settings.json*<br>
+![](https://i.gyazo.com/3d13122f489f643a8b2441febac28217.png)
+4. Copiamos esto:
+
+	````
+	"code-runner.executorMap": {
+		"javascript": "node"
+	},
+	````
+5. Pegamos en la configuración de forma que quede algo como:
+
+	````
+	{
+		
+		"code-runner.executorMap": {
+			"javascript": "node"
+		},
+		
+	}
+	````
+6. Volvemos a intentar lanzar lo que no nos funcionaba con Code Runner, ya debería funcionar.
 
 
 
