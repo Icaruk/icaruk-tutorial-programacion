@@ -54,7 +54,7 @@ console.log("¡¡¡ Pero esto NO debería salir !!!");
 // Vídeo explicativo: https://i.gyazo.com/e5bb0c3c4f8406a0fcf6392b2393525c.mp4
 
 
-// Por fin vamos a explicar qué hace el dichoso "console.log".
+// Y por fin vamos a explicar qué hace el dichoso "console.log".
 // Básicamente imprime en pantalla lo que le pongas entre paréntesis.
 // Si le pones un STRING lo muestra, si le ponges una variable te dice su valor
 // Si le pones alguna expresión como 1+1 te devolverá el resultado.
@@ -98,18 +98,22 @@ console.log(estado, estoyVivo, 1 + 1);
 // --- FIN EJECUCIÓN ---
 
 
-// Basta ya de pruebas, sigamos.
+// Haz las pruebas que necesites, juega. Y cuando termines seguimos.
 // Vamos a ver qué tipos de operadores hay.
 
+3 > 1; 	// 3 es mayor que 1
+3 < 1; 	// 3 es menor que 1
+3 == 1; // 3 es igual que 1
 
-var esMayor = 3 > 1; // ¿3 es mayor que 1?
-var esMenor = 3 < 1; // ¿3 es menor que 1?
-var esIgual = 3 == 1; // ¿3 es igual que 1?
+// El resultado de cada una de esas expresiones, sería si son verdad o mentira (true o false).
+// En este caso los resultados serían:
 
-// esMayor sería true
-// esMenor sería false
-// y esIgual sería false
+3 > 1; 	// true
+3 < 1; 	// false
+3 == 1; // false
+
 // ¿Quieres probarlo?
+// Allá vamos:
 
 
 // >>> INICIO EJECUCIÓN >>>
@@ -123,12 +127,16 @@ console.log( esMayor, esMenor, esIgual );
 
 
 // Debería dar: true false false
-// Sigamos...
+// Además de "mayor que" y "menos que" tenemos "mayor o igual que" y "menor o igual que".
 
-3 >= 3; // ¿3 es mayor o igual que 3? true
-3 > 3; // ¿3 es mayor que 3? false
+3 >= 3; // 3 es mayor o igual que 3: true
+3 > 3; 	// 3 es mayor que 3: false
 
-// Y lo mismo con < y <=
+3 <= 3; // 3 es menor o igual que 3: true
+3 < 3; 	// 3 es menor que 3: false
+
+
+// El símbolo se escribe como se lee: "mayor o igual que" , no "igual que o mayor" xD
 
 
 // A parte del == existe el ===
@@ -141,20 +149,21 @@ console.log( esMayor, esMenor, esIgual );
 1 === "1"; 	// false, porque al no hacerse conversión automática, no son del mismo tipo, por lo tanto no son iguales
 
 
-
-// Lo mismo ocurre con el resto de tipos de datos. Pero no voy a ir uno a uno, iremos viendo sobre la marcha.
+// Así que se podría decir que == compara valores, y === compara valores y tipos.
+// Lo mismo ocurre con el resto de tipos de datos. Pero no voy a ir uno a uno, lo iremos viendo sobre la marcha.
 // Bueno ahora que sabemos cómo comparar cosas, vamos a darle una utilidad... el if.
 
-// Básicamente se escribe if (condicion) {ejecutasCosasAquiDentro};
+// El concepto sería: "si cumplo las condiciones entonces...""
+// Y se escribe: if (condicion) {ejecutasCosasAquiDentro};
 // Si se cumple la condición (es decir, si se resuelve en true), se ejecutará lo de dentro.
 
 
 // >>> INICIO EJECUCIÓN >>>
 
-var salud = 100;
+var dinero = 10; // tengo 10 €
 
-if (salud >= 100) {
-	console.log("Estás en perfectas condiciones.");
+if (dinero >= 8) { // entrar me cuesta 8€, así que necesitaría 8 o más € para poder entrar
+	console.log("Entras en la discoteca.");
 };
 
 // --- FIN EJECUCIÓN ---
@@ -168,10 +177,10 @@ if (salud >= 100) {
 
 var salud = 99;
 
-if (salud >= 100) {
+if (salud >= 100) { // mi salud es 100 o más
 	console.log("Tienes 100 o más de salud. Estás en perfectas condiciones.");
 };
-if (salud < 100) {
+if (salud < 100) { // mi salud MENOS de 100, no incluyo el 100 porque he hecho < 100 y no <= 100
 	console.log("Tienes menos de 100 de salud. Podrías estar herido.");
 };
 
@@ -195,61 +204,90 @@ if (false) {
 // --- FIN EJECUCIÓN ---
 
 
-// De hecho, nuestro IDE nos indicará que lo de dentro del segundo if es "código inaccesible",
+// De hecho, nuestro IDE nos indicará que lo de dentro del segundo if es "código inaccesible" al poner el ratón encima,
 // porque al estar la condición en false, nunca se ejecutará.
+
 // Vamos a hacer algo útil, y al mismo tiempo aprenderemos qué es el "if else".
+// El concepto sería: "si cumplo las condiciones entonces... y si no...""
+// Y se escribe: if (condicion) {ejecutasEsto} else {ejecutasEstoOtro};
+// Si se cumple la condición (es decir, si se resuelve en true), se ejecutará lo del if, de lo contrario, lo del else.
 
 
 // >>> INICIO EJECUCIÓN >>>
 
-var num1 = 2;
-var num2 = 3;
-var limite = 5;
+var dinero = 10;
+var dineroQueMeAcaboDeEncontrar = 1;
+var precio = 8;
 
-if ((num1 + num2) <= limite) {
-	console.log( "El resultado está por debajo del límite." );
-} else {
-	console.log( "¡El resultado ha sobrepasado el límite!" );
+if ((dinero + dineroQueMeAcaboDeEncontrar) >= precio) { // tengo más dinero que lo que cuesta la entrada
+	console.log( "Entras en la discoteca." );
+} else { // no tengo más dinero que lo que cuesta la entrada
+	console.log( "No tienes dinero para entrar en la discoteca." );
 };
 
 // --- FIN EJECUCIÓN ---
 
 
-// Primero se resuelve (num1 + num2)
-// Que el resultado sería 5 y nos quedaría...
-// if (5 <= limite) ...
+// Primero se resuelve (dinero + dineroQueMeAcaboDeEncontrar)
+// Sería 10 + 1 = 11 y nos quedaría...
+// if (11 >= precio) ...
 
-// Si límite es 5, nos quedaría...
-// if (5 <= 5) ...
+// Si precio es 8, nos quedaría...
+// if (11 >= 8) ...
 
-// ¿5 es menor o igual que 5? Sí, es decir, true.
+// ¿11 es mayor o igual que 8? Sí, es decir, true.
 
 // Entonces quedaría...
 // if (true)...
 
-// Por lo tanto, se ejecuta lo de "El resultado está por debajo del límite."
+// Por lo tanto, entramos a la discoteca.
 // ¿Y para qué queremos el "else"?
-// En caso de que la condición del "if" no sea true, en lugar de no hacer nada,
-// ejecutará lo que tiene el "else".
+// En caso de que la condición del "if" no sea true, se ejecutará lo que tiene el "else". Veamos el ejemplo:
 
 
 // >>> INICIO EJECUCIÓN >>>
 
-var num1 = 20;
-var num2 = 30;
-var limite = 5;
+var dinero = 8;
+var dineroQueAcaboDePerder = 1;
+var precio = 8;
 
-if ((num1 + num2) <= limite) {
-	console.log( "El resultado está por debajo del límite." );
-} else {
-	console.log( "¡El resultado ha sobrepasado el límite!" );
+if ((dinero - dineroQueAcaboDePerder) >= precio) { // tengo más dinero que lo que cuesta la entrada
+	console.log( "Entras en la discoteca." );
+} else { // no tengo más dinero que lo que cuesta la entrada
+	console.log( "No tienes dinero para entrar en la discoteca." );
 };
 
 // --- FIN EJECUCIÓN ---
 
 
-// 20 y 30 son 50, que NO son menor o igual que el límite (5).
-// Así que se ejecutaría el "else".
+// Hacemos como antes, paso por paso:
+// ((dinero - dineroQueAcaboDePerder) >= precio)
+// 8 - 1 = 7
+// (7 >= precio)
+// (7 >= 8)
+// false
+
+// No se ejecuta el contenido del if, pero sí el del else
+// Vaya, ese euro que hemos perdido nos venía realmente bien.
 
 
 
+// ############################################################
+// Ejercicio
+// ############################################################
+
+/*
+	Vamos a crear 3 variables (y tú les vas a poner nombre):
+	
+	1. El dinero que tienes.
+	2. El dinero que te acabas de encontrar.
+	3. El dinero que acabas de perder por ir corriendo a por el dinero que te acabas de encontrar.
+	4. El precio de la entrada a... lo que quieras.
+	
+	Vamos a calcular el dinero que se nos quedaría y vamos a comprobar si podemos comprar la entrada.
+	En el caso de que podamos comprarla el mensaje va a ser: "Has podido comprar la entrada, ¡bien!".
+	En el caso de que NO podamos comprarla: "Vaya, no tienes suficiente dinero...".
+	
+	La cosa es que tienes que cuadrar los números para que consigas comprar la entrada.
+
+*/

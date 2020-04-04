@@ -171,7 +171,7 @@ var personaOrdenada = {
 
 
 
-// Seguro que has visto el punto y coma y estás pensado qué coño es eso y porqué siempre lo veo al final.
+// Seguro que has visto el punto y coma y estás pensado qué coño es eso y porqué siempre lo vemos al final.
 // Bueno, sirve para separar una "orden" de otra. Por ejemplo:
 
 var numero1 = 10 var numero2 = 20; // esto estará mal
