@@ -339,7 +339,56 @@ if (true) {
 // El resumen es que "var" alcanza todos los scopes (sube y baja en profundidad).
 // Y "let" sólo se "extiende" hacia los que tiene en los niveles de scope inferior (baja).
 
+// Ahora veámoslo en algo más o menos real:
 
-// Esta vez no hay ejercicio, esto ha sido denso y algo aburrido, pero necesario.
+
+// >>> INICIO EJECUCIÓN >>>
+
+let dinero = 10;
+let precio = 8;
+
+if (dinero >= precio) {
+	let puedoEntrar = true;
+	console.log( "Vas a poder entrar!" );
+} else {
+	let puedoEntrar = false;
+	console.log( "No vas a poder entrar..." );
+};
+
+
+if (puedoEntrar) {
+	console.log( "Estoy dentro" );
+};
+
+// --- FIN EJECUCIÓN ---
+
+
+// En ese caso la variable puedoEntrar no estaría definida en "if (puedoEntrar)".
+// Así que la forma correcta de hacerlo sería:
+
+
+// >>> INICIO EJECUCIÓN >>>
+
+let dinero = 10;
+let precio = 8;
+let puedoEntrar; // defino, pero no doy valor
+
+if (dinero >= precio) {
+	puedoEntrar = true; // asigno valor
+	console.log( "Vas a poder entrar!" );
+} else {
+	puedoEntrar = false; // asigno valor
+	console.log( "No vas a poder entrar..." );
+};
+
+
+if (puedoEntrar) {
+	console.log( "Estoy dentro" );
+};
+
+// --- FIN EJECUCIÓN ---
+
+
+// Y esto ha sido todo, esta vez no hay ejercicio, ha sido denso y algo aburrido, pero necesario.
 // En el próximo capítulo haremos cosas divertidas ¡lo prometo!
 
