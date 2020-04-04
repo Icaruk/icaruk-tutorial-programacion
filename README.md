@@ -1,6 +1,6 @@
-# ¡Hola!
+# ¡Pssst! ¡Aquí abajo!
 
-Soy Adrián "Icaruk" y te doy la bienvenida a mi tutorial de Javascript + HTML + CSS.
+¡Hola! Soy Adrián "Icaruk" y te doy la bienvenida a mi tutorial de Javascript + HTML + CSS.
 Este tutorial te sirve si no sabes NADA de programación porque voy a empezar de 0.
 
 Voy a intentar transmitir mis conocimientos y mi forma de hacer las cosas de la forma más efectiva posible.
@@ -134,4 +134,8 @@ Es parte del **aprendizaje**, permítete equivocarte y hacer las cosas mal, no p
 
 Así que... ¡tu aventura empieza en el capítulo 1!
 
-El primer capítulo estará en un archivo con extensión .js así que tendrás que abrirlo con VSC (Visual Studio Code).
+Para empezar descarga este repositorio, si no sabes cómo, simplemente busca en la parte superior un botón tal que así:<br>
+![](https://i.gyazo.com/31735586fd05bdc0c2415b91be4f5175.png)
+
+Una vez descomprimido abre la carpeta con el capítulo 01 y abre el archivo con extensión .js.
+Tendrás que abrirlo con VSC (Visual Studio Code).
