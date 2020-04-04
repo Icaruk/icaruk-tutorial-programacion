@@ -134,7 +134,7 @@ Es parte del **aprendizaje**, permítete equivocarte y hacer las cosas mal, no p
 
 Así que... ¡tu aventura empieza en el capítulo 1!
 
-Para empezar descarga este repositorio, si no sabes cómo, simplemente busca en la parte superior un botón tal que así:<br>
+Para empezar descarga [este](https://github.com/Icaruk/icaruk-tutorial-programacion) repositorio, si no sabes cómo, simplemente busca en la parte superior un botón tal que así:<br>
 ![](https://i.gyazo.com/31735586fd05bdc0c2415b91be4f5175.png)
 
 Una vez descomprimido abre la carpeta con el capítulo 01 y abre el archivo con extensión .js.
