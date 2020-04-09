@@ -100,17 +100,17 @@ console.log(estado, estoyVivo, 1 + 1);
 
 // Haz las pruebas que necesites, juega. Y cuando termines seguimos.
 // Vamos a ver qué tipos de operadores hay.
+// El resultado de cada una de las siguientes expresiones, sería si son verdad o mentira (true o false):
 
-3 > 1; 	// 3 es mayor que 1
-3 < 1; 	// 3 es menor que 1
-3 == 1; // 3 es igual que 1
+3 > 1; 	// 3 es mayor que 1, true
+3 >= 1; // 3 es mayor o igual que 1, true
+3 < 1; 	// 3 es menor que 1, false
+3 <= 1; // 3 es menor o igual que 1, false
+3 == 1; // 3 es igual que 1, false
+3 === 1; // 3 es igual y del mismo tipo que 1, false
+3 != 1; // 3 NO es igual que 1, true
+3 !== 1; // 3 NO es igual ni del mismo tipo que 1, true
 
-// El resultado de cada una de esas expresiones, sería si son verdad o mentira (true o false).
-// En este caso los resultados serían:
-
-3 > 1; 	// true
-3 < 1; 	// false
-3 == 1; // false
 
 // ¿Quieres probarlo?
 // Allá vamos:
@@ -121,13 +121,14 @@ console.log(estado, estoyVivo, 1 + 1);
 var esMayor = 3 > 1;
 var esMenor = 3 < 1;
 var esIgual = 3 == 1;
-console.log( esMayor, esMenor, esIgual );
+var noEsIgual = 3 != 1;
+console.log( esMayor, esMenor, esIgual, noEsIgual );
 
 // --- FIN EJECUCIÓN ---
 
 
-// Debería dar: true false false
-// Además de "mayor que" y "menos que" tenemos "mayor o igual que" y "menor o igual que".
+// Debería dar: true false false true
+// Veamos con más detalle el >= y el <=
 
 3 >= 3; // 3 es mayor o igual que 3: true
 3 > 3; 	// 3 es mayor que 3: false
@@ -139,8 +140,7 @@ console.log( esMayor, esMenor, esIgual );
 // El símbolo se escribe como se lee: "mayor o igual que" , no "igual que o mayor" xD
 
 
-// A parte del == existe el ===
-// Veamos la diferencia:
+// Ahora veamos las diferencias de == y ===
 
 1 == 1; 	// true
 1 == "1"; 	// true también, "1" se convierte automáticamente a 1
@@ -149,10 +149,19 @@ console.log( esMayor, esMenor, esIgual );
 1 === "1"; 	// false, porque al no hacerse conversión automática, no son del mismo tipo, por lo tanto no son iguales
 
 
+// El signo ! habrás visto que es como de negación, pues es eso, una negación:
+
+!true; // true se convierte en false
+!false; // false se convierte en true
+1 === 1; // como sí que son iguales: true
+1 !== 1; // son iguales pero al tener negación true se convierte en false
+
+
 // Así que se podría decir que == compara valores, y === compara valores y tipos.
 // Lo mismo ocurre con el resto de tipos de datos. Pero no voy a ir uno a uno, lo iremos viendo sobre la marcha.
-// Bueno ahora que sabemos cómo comparar cosas, vamos a darle una utilidad... el if.
 
+
+// Bueno ahora que sabemos cómo comparar cosas, vamos a darle una utilidad... el if.
 // El concepto sería: "si cumplo las condiciones entonces...""
 // Y se escribe: if (condicion) {ejecutasCosasAquiDentro};
 // Si se cumple la condición (es decir, si se resuelve en true), se ejecutará lo de dentro.
