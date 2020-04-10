@@ -337,7 +337,7 @@ if (true) {
 // Cuando veamos las funciones explicaré cómo funciona el scope por allí.
 
 // El resumen es que "var" alcanza todos los scopes (sube y baja en profundidad).
-// Y "let" sólo se "extiende" hacia los que tiene en los niveles de scope inferior (baja).
+// Y "let" sólo se "extiende" hacia los niveles más profundos del scope (baja).
 
 // Ahora veámoslo en algo más o menos real:
 
