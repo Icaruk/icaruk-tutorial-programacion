@@ -245,7 +245,7 @@ console.log(cueva);
 
 
 // ReferenceError: cueva is not defined
-// cueva se define con let en una profundidad 1, así que en las profundidades anteriores existe, pero sí en las siguientes.
+// cueva se define con let en una profundidad 1, así que en las profundidades anteriores NO existe, pero sí en las siguientes.
 // Ahora vamos a ver otro ejemplo un poco más complejo...
 
 
