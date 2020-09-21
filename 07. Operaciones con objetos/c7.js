@@ -316,7 +316,7 @@ console.log( persona1 );
 // persona1 ha sido el objeto que recibe propiedades, así que ha pasado lo siguiente:
 
 // Era Pepe, pero ahora es Juan
-// Tenía 20 años, pero ahora tiene 20
+// Tenía 20 años, pero ahora tiene 30
 // No tenía perro, pero ahora tiene una y se llama Nala
 
 
