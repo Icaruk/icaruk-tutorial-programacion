@@ -285,7 +285,7 @@ for (let i = 0; i < listaCompra.length; i++) {
 // La condición para que se siga repitiendo el bucle es que i sea menos que la cantidad de elementos de listaCompra
 // Y que tras cada repetición hacemos i++
 
-// E imprimos lo mismo que antes.
+// E imprime lo mismo que antes.
 // Es un poco engorroso, pero tenemos métodos mejores...
 
 
