@@ -24,8 +24,8 @@ console.log( resultado1, resultado2, resultado3);
 // ¿Qué he hecho en los argumentos?
 // ¿a = 0? ¿b = 0? ¿c = 0? ¿Qué es esoooo?
 
-// Son argumentos por defecto, en caso de que no se rellenen
-// O sean undefined, se establecerán con ese valor por defecto.
+// Son argumentos por defecto, en caso de que no se rellenen o sean undefined,
+// se establecerán con ese valor por defecto.
 
 // De forma que, en el ejemplo de arriba con resultado3
 // a = 10, b = undefined, c = 1
