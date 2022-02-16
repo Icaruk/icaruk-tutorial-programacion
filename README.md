@@ -112,14 +112,14 @@ Primero escribimos lo siguiente:
 	console.log("Hola");
 	console.log("Adiós");
 	
-Después seleccionamos la primera línea y le damos al play de antes para ejecutar el código, y deberíamos ver lo siguiente:
+Después seleccionamos la primera línea y le damos al play de antes para ejecutar el código, y deberíamos ver lo siguiente:  
 ![](https://i.gyazo.com/70145933757053d6d5fe8907b5e364a7.png)
 
 Después hacemos lo mismo para ejecutar la segunda línea.
 
 De esta forma podremos ejecutar código selectivamente, lo que nos servirá para seguir el tutorial.
 
-Si no seleccionamos nada y ejecutamos, veremos Hola y Adiós con un solo click:
+Si no seleccionamos nada y ejecutamos, veremos Hola y Adiós con un solo click:  
 ![](https://i.gyazo.com/1aff41c05ae5fdeb0d3439b625014b81.png)
 
 Porque hemos ejecutado TODO el código y no una selección.
