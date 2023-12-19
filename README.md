@@ -19,7 +19,7 @@ podremos escribir nuestro código.
 En este tutorial usaremos Visual Studio Code que podremos descargar [aquí](https://code.visualstudio.com/download).
 
 Después instalaremos Node.js, que básicamente es para poder ejecutar Javascript fuera del navegador.
-Y lo podremos descargar [aquí](https://nodejs.org/es/download/).
+Y lo podremos descargar [aquí](https://nodejs.org/).
 (Durante la instalación no es necesario que instaléis Chocolatey y si dice algo de PATH decís que sí.)
 
 Ahora pulsamos sobre la tecla Windows, escribimos ``cmd`` y pulsamos sobre *Símbolo del sistema* (sirve cualquier terminal).<br/>
