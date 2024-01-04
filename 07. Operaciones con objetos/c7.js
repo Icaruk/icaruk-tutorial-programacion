@@ -40,7 +40,7 @@ const meteLista = function(producto) {
 	
 };
 
-const sacaLista = function(producto) {
+const sacaLista = function() {
 	
 	// Pregunto si hay 0 elementos
 	if (listaDeLaCompra.length <= 0) {
@@ -60,7 +60,7 @@ const sacaLista = function(producto) {
 
 
 
-let listaDeLaCompra = []; // lo declaro vacío para que empiece sin nada
+const listaDeLaCompra = []; // lo declaro vacío para que empiece sin nada
 
 meteLista("patatas"); // añado un elemento
 meteLista("leche"); // añado otro elemento
